@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="box1">
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="box2">
+        <button type="button" class="edit">edit</button>
+        <button type="button" class="style">style</button>
+    </div>
+    <div class="box3">
+        <textarea class="txtarea"></textarea>
+        <button type="button" class="add">add</button>
+        <button type="button" class="save">save</button>
+        <div class="box4">
+            <p>Font Size</p>
+            <input type="radio" value="12px" name="font" class="font">12px
+            <input type="radio" value="14px" name="font" class="font">14px
+            <input type="radio" value="16px" name="font" class="font">16px
+            <input type="radio" value="18px" name="font" class="font">18px
+            <input type="radio" value="20px" name="font" class="font">20px
+            <p>Font Family</p>
+            <select class="select">
+                <option disabled selected>Choose option</option>
+                <option value="cursive">cursive</option>
+                <option value="fantasy">fantasy</option>
+                <option value="monospase">monospase</option>
+                <option value="sens-serif">sens-serif</option>
+            </select>
+            <p>Colors:</p>
+            <button type="button" class="color">Color of Text</button>
+            <button type="button" class="background">Background Color</button>
+            <p>Style:</p>
+            <input type="checkbox" id="bold">Bold text
+            <input type="checkbox" id="cursive">Cursive text
+        </div>
+        <div class="colorConteiner">
+            <div class="blue color">blue</div>
+            <div class="red color">red</div>
+            <div class="orange color">orange</div>
+            <div class="green color">green</div>
+            <div class="grey color">grey</div>
+            <div class="darkred color">darkred</div>
+            <div class="darkblue color">darkblue</div>
+            <div class="violet color">violet</div>
+            <div class="gold color">gold</div>
+        </div>
+        <div class="colorConteiner2">
+            <div class="blue color">blue</div>
+            <div class="red color">red</div>
+            <div class="orange color">orange</div>
+            <div class="green color">green</div>
+            <div class="grey color">grey</div>
+            <div class="darkred color">darkred</div>
+            <div class="darkblue color">darkblue</div>
+            <div class="violet color">violet</div>
+            <div class="gold color">gold</div>
+        </div>
+    </div>
+    <div class="box5">
+        <h1>Choose what you wont:</h1>
+        <input type="radio" name="tabl" class="table">table
+        <input type="radio" name="tabl" class="list">list
+        <div class="box5_1">
+            Count TR: <input type="text" class="tr" placeholder="Count TR:">
+            Count TD: <input type="text" class="td" placeholder="Count TD:">
+            <h3>Add Style to your table:</h3>
+            Width of TD: <input type="text" class="width_of_TD" placeholder="Width of TD:">
+            Height of TD: <input type="text" class="height_of_TD" placeholder="Height of TD:">
+        </div>
+        <div class="box5_2">
+            Width of border <input type="text" class="width_of_border" placeholder="Width:">
+            Type of border <select class="type_of_border">
+                <option value="" selected disabled>choose...</option>
+                <option value="solid">solid</option>
+                <option value="dashed">dashed</option>
+                <option value="double">double</option>
+            </select>
+            Color of border <select class="color_of_border">
+                <option value="red" selected>red</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+                <option value="yellow">yellow</option>
+            </select>
+
+            <button type="button" class="tableBT">Create table</button>
+        </div>
+
+        <div class="box6">
+            Count Li: <input type="text" class="countLi" placeholder="Count Li:">
+            Type of marks: <select class="limarks">
+                <option value="" selected disabled>choose...</option>
+                <option value="circle">circle</option>
+                <option value="disc">disc</option>
+                <option value="square">square</option>
+            </select>
+            <button type="button" class="listBT">Create list</button>
+        </div>
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
